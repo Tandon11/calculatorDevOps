@@ -1,6 +1,6 @@
 ---
 - name: Test connectivity to target servers
-  hosts: ubuntu18
+  hosts: docker
   tasks:
     - name: Ping test
       ping:
